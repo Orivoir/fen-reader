@@ -1,5 +1,7 @@
 # [fen-reader](https://npmjs/package/fen-reader)
 
+![fen-reader CI](https://github.com/Orivoir/fen-reader/workflows/fen-reader%20CI/badge.svg)
+
 chess [FEN](https://fr.wikipedia.org/wiki/Notation_Forsyth-Edwards) **reader**,
 **converters**, **scanner** and **check** position validity.
 
@@ -10,7 +12,7 @@ chess [FEN](https://fr.wikipedia.org/wiki/Notation_Forsyth-Edwards) **reader**,
   - [reciprocal](#reciprocal)
 - [validity](#validity)
 - [normalizer](#normalizer)
-- [createFenReader](#createFenReader)
+- [createFenReader](#create-fen-reader)
 
 ## installation
 
@@ -246,7 +248,7 @@ interface StateAttributes {
 
 ```
 
-### normalizer
+## normalizer
 
 normalizer transform a **full FEN position** to array **FEN elements**
 
@@ -295,7 +297,7 @@ console.log( fenElements );
 
 ```
 
-### createFenReader
+## create fen reader
 
 createFenReader is a wrap of FEN converters/checker/scanner position
 
