@@ -1,0 +1,61 @@
+{
+  "calls": [
+    {
+      "entry": "rnbqkb1r/pppppppp/5n2/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 1 2",
+      "output": [
+        "rnbqkb1r/pppppppp/5n2/8/4P3/8/PPPP1PPP/RNBQKBNR",
+        "w",
+        "KQkq",
+        "-",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "entry": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "output": [
+        "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+        "w",
+        "KQkq",
+        "-",
+        "0",
+        "1"
+      ]
+    },
+    {
+      "entry": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+      "output": [
+        "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "entry": "r1bq1rk1/pp1p1p1p/3bpp2/2p5/3nP2P/2NP4/PPPB1PP1/2KR1BNR w - - 5 9",
+      "output": [
+        "r1bq1rk1/pp1p1p1p/3bpp2/2p5/3nP2P/2NP4/PPPB1PP1/2KR1BNR",
+        "w",
+        "-",
+        "-",
+        "5",
+        "9"
+      ]
+    }
+  ],
+
+  "throws": [
+    {
+      "entry": {},
+      "name": "TypeError",
+      "message": "arg1: fen, should be a string value"
+    },
+    {
+      "entry": "",
+      "name": "RangeError",
+      "message": "arg1: fen, is not a valid fen position"
+    }
+  ]
+}

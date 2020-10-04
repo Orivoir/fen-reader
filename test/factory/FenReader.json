@@ -1,0 +1,170 @@
+{
+  "positions": [
+    {
+      "entry": "rnbqkb1r/pppppppp/5n2/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 1 2",
+      "isValidPosition": true,
+      "output": {
+        "whiteCastling": "KQ",
+        "blackCastling": "kq",
+        "notedMove": "-",
+        "semiMove": 1,
+        "countMoves": 2,
+        "moveTo": "w",
+        "scan": {
+          "countParts": 32,
+          "countWhiteParts": 16,
+          "countBlackParts": 16,
+
+          "countPawns": 16,
+          "countWhitePawns": 8,
+          "countBlackPawns": 8,
+
+          "countRooks": 4,
+          "countWhiteRooks": 2,
+          "countBlackRooks": 2,
+
+          "countBishops": 4,
+          "countWhiteBishops": 2,
+          "countBlackBishops": 2,
+
+          "countQueens": 2,
+          "countWhiteQueens": 1,
+          "countBlackQueens": 1,
+
+          "countKnights": 4,
+          "countWhiteKnights": 2,
+          "countBlackKnights": 2
+        },
+        "positions": {
+          "fen": "rnbqkb1r/pppppppp/5n2/8/4P3/8/PPPP1PPP/RNBQKBNR",
+          "array": [
+            ["r","n","b","q","k","b","","r"],
+            ["p","p","p","p","p","p","p","p"],
+            ["","","","","","n","",""],
+            ["","","","","","","",""],
+            ["","","","","P","","",""],
+            ["","","","","","","",""],
+            ["P","P","P","P","","P","P","P"],
+            ["R","N","B","Q","K","B","N","R"]
+          ],
+          "json": {
+            "a8": "rb",
+            "b8": "nb",
+            "c8": "bb",
+            "d8": "qb",
+            "e8": "kb",
+            "f8": "bb",
+            "h8": "rb",
+            "a7": "pb",
+            "b7": "pb",
+            "c7": "pb",
+            "d7": "pb",
+            "e7": "pb",
+            "f7": "pb",
+            "g7": "pb",
+            "h7": "pb",
+            "f6": "nb",
+            "e4": "pw",
+            "a2": "pw",
+            "b2": "pw",
+            "c2": "pw",
+            "d2": "pw",
+            "f2": "pw",
+            "g2": "pw",
+            "h2": "pw",
+            "a1": "rw",
+            "b1": "nw",
+            "c1": "bw",
+            "d1": "qw",
+            "e1": "kw",
+            "f1": "bw",
+            "g1": "nw",
+            "h1": "rw"
+          }
+        }
+      }
+    },
+    {
+      "entry": "r2qkb1r/pppppppp/5n2/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq",
+      "isValidPosition": true,
+      "output": {
+        "whiteCastling": "KQ",
+        "blackCastling": "kq",
+        "notedMove": null,
+        "semiMove": null,
+        "countMoves": null,
+        "moveTo": "w",
+        "scan": {
+          "countParts": 30,
+          "countWhiteParts": 16,
+          "countBlackParts": 14,
+
+          "countPawns": 16,
+          "countWhitePawns": 8,
+          "countBlackPawns": 8,
+
+          "countRooks": 4,
+          "countWhiteRooks": 2,
+          "countBlackRooks": 2,
+
+          "countBishops": 3,
+          "countWhiteBishops": 2,
+          "countBlackBishops": 1,
+
+          "countQueens": 2,
+          "countWhiteQueens": 1,
+          "countBlackQueens": 1,
+
+          "countKnights": 3,
+          "countWhiteKnights": 2,
+          "countBlackKnights": 1
+        },
+        "positions": {
+          "fen": "r2qkb1r/pppppppp/5n2/8/4P3/8/PPPP1PPP/RNBQKBNR",
+          "array": [
+            ["r","","","q","k","b","","r"],
+            ["p","p","p","p","p","p","p","p"],
+            ["","","","","","n","",""],
+            ["","","","","","","",""],
+            ["","","","","P","","",""],
+            ["","","","","","","",""],
+            ["P","P","P","P","","P","P","P"],
+            ["R","N","B","Q","K","B","N","R"]
+          ],
+          "json": {
+            "a8": "rb",
+            "d8": "qb",
+            "e8": "kb",
+            "f8": "bb",
+            "h8": "rb",
+            "a7": "pb",
+            "b7": "pb",
+            "c7": "pb",
+            "d7": "pb",
+            "e7": "pb",
+            "f7": "pb",
+            "g7": "pb",
+            "h7": "pb",
+            "f6": "nb",
+            "e4": "pw",
+            "a2": "pw",
+            "b2": "pw",
+            "c2": "pw",
+            "d2": "pw",
+            "f2": "pw",
+            "g2": "pw",
+            "h2": "pw",
+            "a1": "rw",
+            "b1": "nw",
+            "c1": "bw",
+            "d1": "qw",
+            "e1": "kw",
+            "f1": "bw",
+            "g1": "nw",
+            "h1": "rw"
+          }
+        }
+      }
+    }
+  ]
+}

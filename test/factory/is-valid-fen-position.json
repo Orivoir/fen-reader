@@ -1,0 +1,50 @@
+{
+  "calls": [
+    {
+      "entry": {
+        "position": "rnbqkb1r/pppppppp/5n2/8/4P3/8/PPPP1PPP/RNBQKBNR"
+      },
+
+      "output": {
+        "isValid": true
+      }
+    },
+    {
+      "entry": {
+        "position": "rnbqkb1r/pppppppp/5n2/8/8/8/PPPP1PPP/RNBQKBNR"
+      },
+
+      "output": {
+        "isValid": true,
+        "scan": {
+          "countPawns": 15,
+          "countWhitePawns": 7
+        }
+      }
+    },
+    {
+      "entry": {
+        "position": "rnbqkbkr/pppppppp/5n2/8/8/8/PPPP1PPP/RNBQKBNR"
+      },
+
+      "output": {
+        "isValid": false,
+        "stats": {
+          "isValidTimesKings": false
+        }
+      }
+    },
+    {
+      "entry": {
+        "position": "rnbqkb1r#pppppppp#5n2#8#8#8#PPPP1PPP#RNBQKBNR",
+        "options": {
+          "separator": "#"
+        }
+      },
+
+      "output": {
+        "isValid": true
+      }
+    }
+  ]
+}
