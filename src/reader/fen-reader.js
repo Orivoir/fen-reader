@@ -135,7 +135,10 @@ var converters = {
     fen2array: fen2array_1.default,
     json2array: json2array_1.default,
     fen2json: fen2json_1.default,
-    json2fen: json2fen_1.default
+    json2fen: json2fen_1.default,
+    array2json: function (arrayFen) {
+        return fen2json_1.default(array2fen_1.default(arrayFen));
+    }
 };
 exports.converters = converters;
 var createFenReader = function (position) {
